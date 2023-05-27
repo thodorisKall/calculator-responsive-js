@@ -57,6 +57,10 @@ button {
   grid-template-rows: repeat(5, 1fr);
 }
 
+#delete-one h3 span {
+  display: none;
+}
+
 #btn__zero {
   grid-column: 1 / span 2;
 }
