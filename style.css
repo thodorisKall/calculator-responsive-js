@@ -61,6 +61,26 @@ button {
   display: none;
 }
 
+#multiple {
+  grid-column: 4 / span 1;
+  grid-row: 1 / 2;
+}
+
+#minus {
+  grid-column: 4 / span 1;
+  grid-row: 2 / 3;
+}
+
+#plus {
+  grid-column: 4 / span 1;
+  grid-row: 3 / 4;
+}
+
+#equal {
+  grid-column: 4 / span 1;
+  grid-row: 4 / span 2;
+}
+
 #btn__zero {
   grid-column: 1 / span 2;
 }
