@@ -19,6 +19,7 @@ function calculate(button) {
     console.log("Cleared")
   } else if (button.id === "delete-one") {
     typedNumbers.pop()
+    result = typedNumbers.join("")
     console.log("Deleted one")
   } else if (rawNumber === "=") {
     result = eval(typedNumbers.join(""))
