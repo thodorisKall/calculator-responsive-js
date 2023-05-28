@@ -24,6 +24,8 @@ function calculate(button) {
   } else if (rawNumber === "=") {
     result = eval(typedNumbers.join(""))
     console.log("Calculated")
+  } else if (rawNumber === "( )") {
+    console.log("Parenthesis found")
   } else {
     typedNumbers.push(rawNumber)
     result = typedNumbers.join("")
